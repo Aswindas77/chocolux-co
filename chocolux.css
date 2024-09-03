@@ -1,0 +1,272 @@
+@font-face {
+    font-family:triorong Bold;
+    src: url(Trirong-ExtraBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'trirong Bold'; */
+    
+}
+.main-nav{
+    text-align: center;
+    margin: 0px;
+    padding: 12px 10px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(159, 120, 43);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Helvetica;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0px;
+    
+}
+.container-nav{
+    display: grid;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    grid-template-columns:auto auto auto auto auto auto auto auto;
+    align-items: center;
+    padding: 7px;
+    font-family: Helvetica;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 44.2px;
+    background: white;
+    
+    
+}
+.logo{
+    height: 40px;
+    width: 88.55px;
+    margin-left: 84px;
+
+}
+.right-icon{
+    height: 35px;
+    width: 32px;
+}
+.nav-link{
+    margin-left:728px;
+    justify-items: center;
+    
+}
+.container-nav a{
+    text-decoration: none;
+    color: #000;
+
+}
+.search-icon{
+    height: 35px;
+    width: 32px;
+
+}
+.cart-icon{
+    height: 35px;
+    width: 32px; 
+}
+.header-container h1{
+    text-align: center;
+    color: #9f782b;
+    font-family: 'trirong Bold';
+    margin-top: 15px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+    
+}
+
+.middle-selectors{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-top: 70px;
+
+
+}
+
+.filter{
+    margin-left: 50px;
+}
+::placeholder{
+    color: #000;
+}
+
+.filter input{
+    height: 40px;
+    width:200px;
+    border:2px solid #9f782b;
+}
+
+.middle-selectors a{
+    text-decoration: none;
+    color: #000;
+    
+}
+    
+
+
+.middle-selectors select{
+    padding-left:5px ;
+    height: 50px;
+    width: 250px;
+    border:1px solid #9f782b;
+    
+
+}
+.sort-by{
+    margin-left: 400px;
+}
+.image-containers{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.image-containers img{
+    height: 386px;
+   width: fit-content;
+   margin-top: 50px;
+   
+}
+.img-1{
+    margin-left:72px;
+}
+.footer-top{
+    background-color: rgb(159, 120, 43);
+    height: 248px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none; 
+}
+.footer-bottom{
+    background-color: #000;
+    height: 154px;
+    width: 100%;
+}
+.image-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.content-1 h3{
+    color: #9f782b;
+    margin-top: 5px;
+    text-align: center;
+}
+.content-2 h3{
+    color: #9f782b;
+    margin-top: 5px;
+    text-align: center;
+    
+}.content-3 h3{
+    color: #9f782b;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+ .main-footer-img img{
+    height: 386px;
+   width: fit-content;
+   margin-top: 50px;
+   margin-left: 200px;
+   margin-bottom:40px;
+   
+}
+.gift-content h3{
+    color: #9f782b;
+    margin-bottom: 76px;
+    margin-top: -68px;
+    font-size: 23px;
+    margin-left: 345px;
+}
+
+
+.sticky {
+    position: absolute;
+    top: 0;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .brown-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background: #9f782b; 
+    color: white;
+    height: 400px;  
+  }
+  .brown-left{
+    padding: 50px;
+  }
+  .brown-h{
+    font-size:20px;
+  }
+  .para{
+    margin-top: 10px;
+  }
+  .brown-mail{
+    margin-top: 20px;
+    color: white;
+  }
+  .brown-mail input{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-left: 10px;
+    color: #fff;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .brown-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+  }
+  .brown-p{
+        margin-top: 5px;
+        padding: 25px;
+        font-size: 15px;
+  }
+  .brown-p p{
+    margin-top:15px;
+    font-size: 15px;
+  }
+  .black-page{
+    background-color: #000;
+    width: 100%;
+    height: 159px;
+    color: #e0e0e0a0;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+  }
+  .black-page p{
+    letter-spacing: 2px;
+  }
+
+  
+ 
+
+
+
+
+
+
